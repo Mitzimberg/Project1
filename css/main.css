@@ -1,4 +1,5 @@
-/* Place CSS styles here */
+/*whenever I tried to use the WebAIM contrast checker I could not for the life of me get it to work, kept hitting a "forbidden" error
+and for */
 
 body {
     background-color: #f5f5dc;
@@ -11,6 +12,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display SC", serif;
     font-weight: 800;
     text-align: center;
+    font-size: 28px;
+}
+
+header {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 52px;
 }
 
 /*this is for the layout of images
@@ -32,12 +41,20 @@ found tutorials for this on W3*/
     display: flex;
     justify-content: space-between; /*not too sure if justify content is the best way to go about it, but in the end it worked*/
 }
+.flavor-text ul {
+    list-style-type: none;
+    padding-left: 0; /* hahaha this solution to my uncentered text took me HOURS*/
+    text-align: center;
+}
+.flavor-text li {
+    margin-bottom: 10px;
+}
+
 .about-art {
     width: 33%;
     margin-left: 12px;
     position: relative;
 }
-
 .about-art p {
     text-align: left;
 }
@@ -47,12 +64,6 @@ found tutorials for this on W3*/
     margin-right: 16px;
     position: relative;
 }
-
 .about-me p {
     text-align: right;
-}
-
-.h3 {
-    font-weight: 800;
-    font-size: 30px;
 }
