@@ -1,7 +1,5 @@
 /*whenever I tried to use the WebAIM contrast checker I could not for the life of me get it to work, kept hitting a "forbidden" error
-and for
-
-DO NOT check the links with WAVE, DON'T.*/
+and for*/
 
 body {
     background-color: #f5f5dc;
@@ -44,7 +42,7 @@ found tutorials for this on W3*/
 }
 .flavor-text ul {
     list-style-type: none;
-    padding-left: 0; /*hahaha this solution to my uncentered text took me HOURS*/
+    padding-left: 0; /*hahaha this solution to my uncentered text took me FOREVER*/
     text-align: center;
 }
 .flavor-text li {
@@ -67,4 +65,13 @@ found tutorials for this on W3*/
 }
 .about-me p {
     text-align: center;
+}
+
+.extras {
+    text-align: center;
+}
+.extras ul {
+    list-style-type: none;
+    padding-left: 0;
+
 }
