@@ -1,5 +1,7 @@
 /*whenever I tried to use the WebAIM contrast checker I could not for the life of me get it to work, kept hitting a "forbidden" error
-and for */
+and for
+
+DO NOT check the links with WAVE, DON'T.*/
 
 body {
     background-color: #f5f5dc;
@@ -24,7 +26,7 @@ header {
 
 /*this is for the layout of images
 found tutorials for this on W3*/
-.Showcase {
+.showcase {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 10px;
@@ -32,7 +34,7 @@ found tutorials for this on W3*/
     overflow-y: auto;
     padding: 10px;
 }
-.Showcase img {
+.showcase img {
     width: 100%;
     height: auto;
 }
@@ -43,7 +45,7 @@ found tutorials for this on W3*/
 }
 .flavor-text ul {
     list-style-type: none;
-    padding-left: 0; /* hahaha this solution to my uncentered text took me HOURS*/
+    padding-left: 0; /*hahaha this solution to my uncentered text took me HOURS*/
     text-align: center;
 }
 .flavor-text li {
@@ -51,19 +53,19 @@ found tutorials for this on W3*/
 }
 
 .about-art {
-    width: 33%;
+    width: 40%;
     margin-left: 12px;
     position: relative;
 }
 .about-art p {
-    text-align: left;
+    text-align: center;
 }
 
 .about-me {
-    width: 33%;
+    width: 40%;
     margin-right: 16px;
     position: relative;
 }
 .about-me p {
-    text-align: right;
+    text-align: center;
 }
